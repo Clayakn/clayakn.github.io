@@ -1,0 +1,13 @@
+{
+  "main.css": "static/css/main.4f86c1f8.css",
+  "main.css.map": "static/css/main.4f86c1f8.css.map",
+  "main.js": "static/js/main.ef6e9500.js",
+  "main.js.map": "static/js/main.ef6e9500.js.map",
+  "static/media/chartjs-icon.png": "static/media/chartjs-icon.06df2317.png",
+  "static/media/graphql-icon.png": "static/media/graphql-icon.762edb84.png",
+  "static/media/jest-icon.png": "static/media/jest-icon.c5b8c7d2.png",
+  "static/media/nodejs-icon.png": "static/media/nodejs-icon.270f55ff.png",
+  "static/media/postgresql-icon.png": "static/media/postgresql-icon.50156c71.png",
+  "static/media/react-icon.png": "static/media/react-icon.84d44aff.png",
+  "static/media/redux-icon.png": "static/media/redux-icon.b51d1861.png"
+}
