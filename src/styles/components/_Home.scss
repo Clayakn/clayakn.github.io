@@ -1,0 +1,88 @@
+@import '../variables';
+
+.home_container {
+    width: 100%;
+}
+
+.home_container .body {
+    margin: 20px auto;
+    padding-bottom: 20px;
+    background-color: $section-background-color; 
+    border: 2px solid $section-border-color;
+    border-radius: 25px 25px 0px 0px;
+    width: 70%;
+    box-shadow: 7px 7px 3px grey;
+}
+
+.home_profile_container {
+    display: flex;
+}
+
+.home_profile {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 15px;
+    a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $highlight-color;
+        text-decoration: underline;
+    }
+    img {
+        margin: 15px;
+        padding-bottom: 15px;
+        max-height: 60%;
+        max-width: 50%;
+    }
+    h2 {
+        color: $highlight-color;
+        font-size: 95%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    min-width: 30%;
+}
+
+.home_intro { 
+    padding-right: 150px;
+    padding-top: 30px;
+    h1 {
+        padding-bottom: 15px;
+    }
+    p {
+       line-height: 16px;
+    } 
+}
+
+.home_interest_container {
+    h3 {
+        margin-top: 7px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.home_interest_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_interest_column {
+    display: flex; 
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.home_interest_individual {
+    background-color: black;
+    p {
+        // Top, Right, Bottom, Left
+        padding: 2px 0 4px 3px;
+    }
+    img {
+        height: 160px; 
+        width: 220px;
+    }
+}

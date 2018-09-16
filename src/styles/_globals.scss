@@ -1,0 +1,20 @@
+@import 'variables';
+
+h1 {
+  color: $text-color;
+  font: {
+    family: $primary-font-family;
+    size: 30px;
+  }
+}
+
+p, a, div, button {
+  color: $text-color;
+  font: {
+    family: $primary-font-family;
+    size: 14px;
+    weight: lighter;
+  }
+}
+
+

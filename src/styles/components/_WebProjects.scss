@@ -1,0 +1,67 @@
+@import '../variables';
+
+.webprojects_container {
+    h1 {
+        text-align: center;
+    }
+    width: 100%;
+}
+
+.webprojects_project_container {
+    margin: 20px auto;
+    // padding-bottom: 20px;
+    background-color: $section-background-color; 
+}
+
+.webprojects_project {
+    border-bottom: 1px solid $section-border-color;
+    display: flex;
+    justify-content: space-evenly;
+    h3 {
+        // Top & Bottom, Left & Right
+        padding: 5px 0;
+        text-decoration: underline;
+        color:#65C3F2;
+    }
+}
+
+.webprojects_project_description {
+    max-width: 500px;
+    li {
+        padding-bottom: 7px;
+        line-height: 16px;
+    }
+    p {
+        line-height: 16px;
+     } 
+}
+
+#nutritionmadeeasy_home_photo {
+    height: 300px; 
+    width: 200px;
+}
+
+#whosbringingwhat_home_photo {
+    height: 200px; 
+    width: 170px;
+}
+
+.webprojects_project_title {
+  
+    img {
+        padding: 10px 0;
+    }
+}
+.webprojects_project_list {
+    display: flex; 
+    flex-direction: column;
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        padding-top: 7px;
+    }
+    a:hover {
+        color: $highlight-color;
+        text-decoration: underline;
+    }
+}

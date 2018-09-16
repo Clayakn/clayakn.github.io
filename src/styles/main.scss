@@ -1,0 +1,13 @@
+@import 'reset';
+@import 'globals';
+
+
+@import 'variables';
+
+// ===== COMPONENTS ===== //
+
+@import './components/App';
+@import './components/Home';
+@import './components/Nav';
+@import './components/SkillsIcons';
+@import './components/WebProjects';

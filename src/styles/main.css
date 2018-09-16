@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  color: #aaa;
+  font-family: "Muli", Arial, sans-serif;
+  font-size: 30px; }
+
+p, a, div, button {
+  color: #aaa;
+  font-family: "Muli", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: lighter; }
+
+body {
+  background-color: #C7C6C6; }
+
+.home_container {
+  width: 100%; }
+
+.home_container .body {
+  margin: 20px auto;
+  padding-bottom: 20px;
+  background-color: #232121;
+  border: 2px solid #514E4E;
+  border-radius: 25px 25px 0px 0px;
+  width: 70%;
+  box-shadow: 7px 7px 3px grey; }
+
+.home_profile_container {
+  display: flex; }
+
+.home_profile {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-width: 30%; }
+  .home_profile a {
+    font-weight: bold;
+    text-decoration: none; }
+  .home_profile a:hover {
+    color: #22AAA1;
+    text-decoration: underline; }
+  .home_profile img {
+    margin: 15px;
+    padding-bottom: 15px;
+    max-height: 60%;
+    max-width: 50%; }
+  .home_profile h2 {
+    color: #22AAA1;
+    font-size: 95%;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+
+.home_intro {
+  padding-right: 150px;
+  padding-top: 30px; }
+  .home_intro h1 {
+    padding-bottom: 15px; }
+  .home_intro p {
+    line-height: 16px; }
+
+.home_interest_container h3 {
+  margin-top: 7px;
+  text-align: center;
+  font-size: 20px; }
+
+.home_interest_section {
+  display: flex;
+  justify-content: space-around; }
+
+.home_interest_column {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0; }
+
+.home_interest_individual {
+  background-color: black; }
+  .home_interest_individual p {
+    padding: 2px 0 4px 3px; }
+  .home_interest_individual img {
+    height: 160px;
+    width: 220px; }
+
+.nav_container {
+  box-shadow: 0 4px 4px 0 grey;
+  background: linear-gradient(#232121, #514E4E);
+  height: 45px; }
+  .nav_container h2 {
+    color: #22AAA1;
+    font-size: 18px; }
+
+navigation {
+  margin-left: 20px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px; }
+
+.nav_link {
+  text-decoration: none;
+  color: #aaa;
+  font-family: inherit;
+  font-size: inherit; }
+
+.nav_link:hover {
+  color: #22AAA1; }
+
+.skillsicons_container {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  background-color: #232121;
+  border: 2px solid #514E4E;
+  border-radius: 25px 25px 0px 0px;
+  width: 70%;
+  box-shadow: 7px 7px 3px grey; }
+
+.skillsicons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 30px; }
+  .skillsicons img {
+    padding-top: 5px;
+    height: 60px;
+    width: 70px; }
+
+.icons {
+  color: #aaa; }
+
+.skillsicons_logo {
+  background-color: #F5F4FE;
+  border-radius: 0 0 35px 35px;
+  padding: 0 18px;
+  margin: 5px;
+  text-align: center; }
+  .skillsicons_logo p {
+    color: black;
+    padding-bottom: 5px; }
+
+.webprojects_container {
+  width: 100%; }
+  .webprojects_container h1 {
+    text-align: center; }
+
+.webprojects_project_container {
+  margin: 20px auto;
+  background-color: #232121; }
+
+.webprojects_project {
+  border-bottom: 1px solid #514E4E;
+  display: flex;
+  justify-content: space-evenly; }
+  .webprojects_project h3 {
+    padding: 5px 0;
+    text-decoration: underline;
+    color: #65C3F2; }
+
+.webprojects_project_description {
+  max-width: 500px; }
+  .webprojects_project_description li {
+    padding-bottom: 7px;
+    line-height: 16px; }
+  .webprojects_project_description p {
+    line-height: 16px; }
+
+#nutritionmadeeasy_home_photo {
+  height: 300px;
+  width: 200px; }
+
+#whosbringingwhat_home_photo {
+  height: 200px;
+  width: 170px; }
+
+.webprojects_project_title img {
+  padding: 10px 0; }
+
+.webprojects_project_list {
+  display: flex;
+  flex-direction: column; }
+  .webprojects_project_list a {
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 7px; }
+  .webprojects_project_list a:hover {
+    color: #22AAA1;
+    text-decoration: underline; }

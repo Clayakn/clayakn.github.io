@@ -1,0 +1,41 @@
+@import '../variables';
+
+
+.skillsicons_container {
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    background-color: $section-background-color; 
+    border: 2px solid $section-border-color;
+    border-radius: 25px 25px 0px 0px;
+    width: 70%;
+    box-shadow: 7px 7px 3px grey;
+}
+
+.skillsicons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+    img {
+        padding-top: 5px;
+        height: 60px; 
+        width: 70px;
+    }
+}
+
+.icons {
+    color: $text-color;
+  }
+
+.skillsicons_logo {
+    background-color: #F5F4FE;
+    border-radius: 0 0 35px 35px;
+    padding: 0 18px;
+    margin: 5px;
+    text-align: center;
+    p {
+        color: black;
+        padding-bottom: 5px;
+    }
+}

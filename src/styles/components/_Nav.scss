@@ -1,0 +1,32 @@
+@import '../variables';
+
+.nav_container{
+    box-shadow: 0 4px 4px 0 grey;
+    background: linear-gradient( #232121, #514E4E);
+    height: 45px;
+    h2 {
+        color: $highlight-color;
+        font-size: 18px;
+    }
+}
+
+navigation {
+    margin-left: 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: $text-color;
+    font: {
+        family: inherit;
+        size: inherit;
+    }
+}
+
+.nav_link:hover {
+    color: $highlight-color;
+}
