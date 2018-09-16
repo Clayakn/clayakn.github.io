@@ -9,7 +9,7 @@ import { Switch, Route } from 'react-router-dom';
 
 export default (
     <Switch>
-        <Route exact path="/portfolio/" component={Home}/>
         <Route exact path="/webProjects" component={WebProjects}/>
+        <Route  path="/" component={Home}/>
     </Switch>
 )

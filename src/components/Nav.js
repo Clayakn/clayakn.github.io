@@ -8,7 +8,7 @@ export default function Nav() {
             <div className="nav_container">
                 <navigation >
                     <h2>Andrew 'Clayakn' Nam</h2>
-                    <Link className="nav_link" to='/portfolio/'>Home</Link>
+                    <Link className="nav_link" to='/'>Home</Link>
                     <Link className="nav_link" to='/webProjects'>Web Projects</Link>
                 </navigation>
             </div>
