@@ -26,7 +26,7 @@ export default function WebProjects() {
                             <h3>Framework</h3>
                             <p>Front-end: React | Server: Express in Nodejs | Back-end: PostgreSQL in Heroku </p>
                             <h3>Technologies & Libraries</h3>
-                            <p>Auth0 | Axios | Chartjs | Digital Ocean | Postman | React-router-dom |Redux | Sass </p>
+                            <p>Auth0 | Axios | Chartjs | Digital Ocean | Postman | React-router-dom | Redux | Sass </p>
                             <h3>Description</h3>
                             <p>Single-Page Application created to calculate nutritional values of food and create meal plans based on nutritional values.</p>
                             <h3>Key Features</h3>
