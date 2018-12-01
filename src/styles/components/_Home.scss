@@ -54,6 +54,14 @@
     p {
        line-height: 16px;
     } 
+    .home_projects_link {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .home_projects_link:hover {
+        color: $highlight-color;
+        text-decoration: underline;
+    }
 }
 
 .home_interest_container {
@@ -86,3 +94,4 @@
         width: 220px;
     }
 }
+

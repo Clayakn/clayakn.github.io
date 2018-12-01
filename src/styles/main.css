@@ -102,6 +102,12 @@ body {
     padding-bottom: 15px; }
   .home_intro p {
     line-height: 16px; }
+  .home_intro .home_projects_link {
+    font-weight: bold;
+    text-decoration: none; }
+  .home_intro .home_projects_link:hover {
+    color: #22AAA1;
+    text-decoration: underline; }
 
 .home_interest_container h3 {
   margin-top: 7px;

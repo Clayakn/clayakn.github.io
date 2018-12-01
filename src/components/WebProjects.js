@@ -20,7 +20,7 @@ export default function WebProjects() {
                         <div className="webprojects_project_title">
                             <h3>Project Name</h3>
                             <p>Nutrition Made Easy</p>
-                            <img id="nutritionmadeeasy_home_photo" src={nutritionHomePic} alt="Home page for Nutrition Made Easy Website"/>
+                            <a href="https://nutritionmadeeasy.us"><img id="nutritionmadeeasy_home_photo" src={nutritionHomePic} alt="Home page for Nutrition Made Easy Website"/></a>
                         </div>
                         <div className="webprojects_project_description">
                             <h3>Framework</h3>
@@ -45,7 +45,7 @@ export default function WebProjects() {
                         <div className="webprojects_project_title">
                             <h3>Project Name</h3>
                             <p>Whos Bringing What</p>
-                            <img id="whosbringingwhat_home_photo" src={whosbringingwhatHomePic} alt="Home page for Whos Bringing What Website"/>
+                            <a href="https://whosbringingwhat.org"><img id="whosbringingwhat_home_photo" src={whosbringingwhatHomePic} alt="Home page for Whos Bringing What Website"/></a>
                         </div>
                         <div className="webprojects_project_description">
                             <h3>Framework</h3>

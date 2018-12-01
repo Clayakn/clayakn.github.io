@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 // Images
 import portrait  from '../images/portrait2.png';
 import AI from '../images/businessman-AI.png';
@@ -33,8 +35,9 @@ export default function Home() {
                         <p>Ever since I grew up watching other people show their greatness. I wanted to be great myself but never had a clear path to follow. I knew I liked some things here and there but I never stuck to anything. I felt like everyone was ahead of the game and I was falling behind and became depressed because of it. One day I had a vision of becoming a champion in a virtual world and became obsessed with it ever since. The field I want to master is E-Active Sports, a combination of physical sports and video games. The three core concepts of E-Active Sports include Artificial Intelligence, Human Physique, & Strategy. Everything I do is preparing some day to be a champion in an E-Active Sport.</p>
                         <br/>
                         <p>Thanks for reading ~</p>
+                        <br/>
+                        <Link className="home_projects_link" to='/webProjects'><h2>Click Here To See Web Dev Projects</h2></Link> 
                     </section>
-                    
                 </div>
             <div className="home_container">
                 <div className="home_interest_container body">
